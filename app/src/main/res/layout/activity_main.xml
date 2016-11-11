@@ -39,6 +39,7 @@
                 android:layout_marginTop="5dp"
                 android:gravity="center">
                 <android.support.v7.widget.AppCompatImageButton
+                    android:id="@+id/button_music"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:background="@drawable/ic_music_note_black_36dp"
@@ -60,6 +61,7 @@
                 android:layout_marginTop="5dp"
                 android:gravity="center">
                 <android.support.v7.widget.AppCompatImageButton
+                    android:id="@+id/button_light"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:background="@drawable/ic_lightbulb_outline_black_48dp"/>
@@ -79,13 +81,14 @@
                 android:layout_marginTop="5dp"
                 android:gravity="center">
                 <android.support.v7.widget.AppCompatImageButton
+                    android:id="@+id/button_bluetooth"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:background="@drawable/ic_settings_bluetooth_black_48dp"/>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="音乐"/>
+                    android:text="蓝牙"/>
 
             </LinearLayout>
 
@@ -108,6 +111,7 @@
                 android:layout_marginTop="5dp"
                 android:gravity="center">
                 <android.support.v7.widget.AppCompatImageButton
+                    android:id="@+id/button_file"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:background="@drawable/ic_credit_card_black_48dp"/>
@@ -127,6 +131,7 @@
                 android:layout_marginTop="5dp"
                 android:gravity="center">
                 <android.support.v7.widget.AppCompatImageButton
+                    android:id="@+id/button_little"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:background="@drawable/ic_face_black_48dp"/>
@@ -146,6 +151,7 @@
                 android:layout_marginTop="5dp"
                 android:gravity="center">
                 <android.support.v7.widget.AppCompatImageButton
+                    android:id="@+id/button_wallet"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:background="@drawable/ic_credit_card_black_48dp"/>
